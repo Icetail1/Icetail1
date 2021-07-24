@@ -437,7 +437,7 @@ function resetplaceholder() {
 	
 	// reforge gear must be +15
 	if ( isReforged() ) {
-		var select_enc_lv = document.getElementById("gear-enc-lv");
+		var select_enc_lv = "lv85";
 		select_enc_lv.selectedIndex = 5;
 	}
 	
