@@ -24,7 +24,7 @@ window.onload = function() {
         }
     }
 	
-	var lang = query_string["cn"];
+	var lang === 'cn';
 	
 	if ( lang === 'tw' ) {
 		g_lang = 'tw';
@@ -40,20 +40,10 @@ window.onload = function() {
         document.getElementsByTagName('meta')["keywords"].content = "机动战姬装备评分器,机动战姬装备计算器,e7装备评分器,epic7装备评分器,epic seven装备评分器";
         document.getElementsByTagName('meta')["description"].content = "机动战姬 装备评分计算器，计算装备副属性强化的好坏程度";
         
-        document.getElementById("lv85").innerHTML = "Lv72 - 85 (竞技场88套)";
-        document.getElementById("lv90").innerHTML = "Lv86 - 99 (迷宫88套)";
-        document.getElementById("lv90r").innerHTML = "Lv90 重铸";
         
-        document.getElementById("label-gear-lv").innerHTML = "装备等级";
-        document.getElementById("label-gear-type").innerHTML = "装备稀有度";
-        document.getElementById("label-gear-enc-lv").innerHTML = "装备强化等级";
         document.getElementById("label-sub-presets").innerHTML = "有效副属性预设值";
         document.getElementById("label-usef-sub").innerHTML = "有效副属性";
         
-		document.getElementById("gwhite").innerHTML = "一般";
-		document.getElementById("gblue").innerHTML = "稀有";
-		document.getElementById("gpink").innerHTML = "英雄";
-		document.getElementById("gred").innerHTML = "传说";
         
         document.getElementById("gus-all").innerHTML = "全选";
         document.getElementById("gus-dd").innerHTML = "纯输出";
@@ -94,9 +84,6 @@ window.onload = function() {
         document.getElementsByTagName('meta')["keywords"].content = "Icetail";
         document.getElementsByTagName('meta')["description"].content = "Icetail,calculate the score of gear's substats rolls";
         
-        document.getElementById("lv85").innerHTML = "Lv72 - 85 (Arena lv.88 gears)";
-        document.getElementById("lv90").innerHTML = "Lv86 - 99 (Labyrinth lv.88 gears)";
-        document.getElementById("lv90r").innerHTML = "Lv90 Reforged";
         
         document.getElementById("label-gear-lv").innerHTML = "Gear Level";
         document.getElementById("label-gear-type").innerHTML = "Gear Rarity";
