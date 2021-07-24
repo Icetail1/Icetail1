@@ -79,57 +79,7 @@ window.onload = function() {
 		document.getElementById("btn-reset").innerHTML = "重置";
 	}
     
-	else {
-        document.title = "Icetail";
-        document.getElementsByTagName('meta')["keywords"].content = "Icetail";
-        document.getElementsByTagName('meta')["description"].content = "Icetail,calculate the score of gear's substats rolls";
-        
-        
-        document.getElementById("label-gear-lv").innerHTML = "Gear Level";
-        document.getElementById("label-gear-type").innerHTML = "Gear Rarity";
-        document.getElementById("label-gear-enc-lv").innerHTML = "Gear Enhance Level";
-        document.getElementById("label-sub-presets").innerHTML = "Presets";
-        document.getElementById("label-usef-sub").innerHTML = "Prioritizing Substats";
-		
-		document.getElementById("gwhite").innerHTML = "Good";
-		document.getElementById("gblue").innerHTML = "Rare";
-		document.getElementById("gpink").innerHTML = "Heroic";
-		document.getElementById("gred").innerHTML = "Epic";
-        
-        document.getElementById("gus-all").innerHTML = "Select All";
-        document.getElementById("gus-dd").innerHTML = "Damage Dealer";
-        document.getElementById("gus-tank").innerHTML = "Tank";
-        document.getElementById("gus-debuffer").innerHTML = "Debuffer";
-        document.getElementById("gus-healer").innerHTML = "Cleanser";
-        
-        document.getElementById("gus-atkper").innerHTML = "Attack%";
-		document.getElementById("gus-defper").innerHTML = "Defence%";
-		document.getElementById("gus-hpper").innerHTML = "Health%";
-		document.getElementById("gus-atkflat").innerHTML = "Attack";
-		document.getElementById("gus-defflat").innerHTML = "Defence";
-		document.getElementById("gus-hpflat").innerHTML = "Health";
-		document.getElementById("gus-critch").innerHTML = "Cri.Chance";
-		document.getElementById("gus-critdmg").innerHTML = "Cri.Damage";
-		document.getElementById("gus-spd").innerHTML = "Speed";
-		document.getElementById("gus-eff").innerHTML = "Effectiveness";
-		document.getElementById("gus-res").innerHTML = "Eff.Resist";
-		
-		document.getElementById("label-atkper").innerHTML = "Attack%";
-		document.getElementById("label-defper").innerHTML = "Defence%";
-		document.getElementById("label-hpper").innerHTML = "Health%";
-		document.getElementById("label-atkflat").innerHTML = "Attack";
-		document.getElementById("label-defflat").innerHTML = "Defence";
-		document.getElementById("label-hpflat").innerHTML = "Health";
-		document.getElementById("label-critch").innerHTML = "Cri.Chance";
-		document.getElementById("label-critdmg").innerHTML = "Cri.Damage";
-		document.getElementById("label-spd").innerHTML = "Speed";
-		document.getElementById("label-eff").innerHTML = "Effectiveness";
-		document.getElementById("label-res").innerHTML = "Eff.Resist";
-		document.getElementById("label-score").innerHTML = "Score";
-		document.getElementById("btn-calc").innerHTML = "Calc";
-		document.getElementById("btn-reset").innerHTML = "Reset";
-	}
-    
+
     
 	
 	// zh, en
