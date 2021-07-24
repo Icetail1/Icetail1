@@ -813,9 +813,7 @@ function getPossibleErrorDesc( enc_time ) {
 	var data = getSubstat();
 	var hasFlatSubstat = false;
 	
-	var select = document.getElementById("gear-lv");
-	var options = select.options;
-	var gear_lv = options[options.selectedIndex].id;
+	var gear_lv = "lv85";
 	
 	for ( var idx = 0; idx < 11; idx ++ ) {
 		if ( isNaN( data[idx] ) || data[idx] <= 0 ) {
