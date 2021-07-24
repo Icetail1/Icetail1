@@ -25,16 +25,7 @@ window.onload = function() {
     }
 	
 	var lang === 'cn';
-	
-	if ( lang === 'tw' ) {
-		g_lang = 'tw';
-        document.title = "机动战姬 裝備評分工具";
-        document.getElementsByTagName('meta')["keywords"].content = "机动战姬裝備評分器,机动战姬裝備計算器,e7裝備評分器,epic7裝備評分器,epic seven裝備評分器";
-        document.getElementsByTagName('meta')["description"].content = "机动战姬 裝備評分計算器，計算裝備副屬性強化的好壞程度";
-	}
-	
-	// change the substat label in the front page
-    else if ( lang === 'cn' ) {
+
         g_lang = 'cn';
 		document.title = " 装备评分工具";
         document.getElementsByTagName('meta')["keywords"].content = "机动战姬装备评分器,机动战姬装备计算器,e7装备评分器,epic7装备评分器,epic seven装备评分器";
@@ -77,14 +68,6 @@ window.onload = function() {
 		document.getElementById("label-score").innerHTML = "分数";
 		document.getElementById("btn-calc").innerHTML = "计算";
 		document.getElementById("btn-reset").innerHTML = "重置";
-	}
-    
-
-    
-	
-	// zh, en
-	// console.log( "lang=" + g_lang );
-	
 	reset();
 };
 
