@@ -472,16 +472,7 @@ function resetplaceholder() {
 		document.getElementById("hpflat").placeholder = "0 - " + substate_max[10]*coff;
 	}
 	
-	switch( getGearType() ) {
-		case 1:
-			document.getElementById("gear-type").style= "color:BLACK; font-weight: bold;"; break;
-		case 2:
-			document.getElementById("gear-type").style= "color:BLUE; font-weight: bold;"; break;
-		case 3:
-			document.getElementById("gear-type").style= "color:HOTPINK; font-weight: bold;"; break;
-		case 4:
-			document.getElementById("gear-type").style= "color:RED; font-weight: bold;"; break;
-	}
+
 }
 
 function reset() {
