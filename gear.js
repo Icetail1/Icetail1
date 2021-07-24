@@ -90,9 +90,9 @@ window.onload = function() {
 	}
     
 	else {
-        document.title = "Epic7 Gear's Substat";
-        document.getElementsByTagName('meta')["keywords"].content = "Epic7 Gear's Substat,e7 Gear's Substat,epic seven Gear's Substat";
-        document.getElementsByTagName('meta')["description"].content = "Epic7 Gear's Substat,calculate the score of gear's substats rolls";
+        document.title = "Icetail";
+        document.getElementsByTagName('meta')["keywords"].content = "Icetail";
+        document.getElementsByTagName('meta')["description"].content = "Icetail,calculate the score of gear's substats rolls";
         
         document.getElementById("lv85").innerHTML = "Lv72 - 85 (Arena lv.88 gears)";
         document.getElementById("lv90").innerHTML = "Lv86 - 99 (Labyrinth lv.88 gears)";
