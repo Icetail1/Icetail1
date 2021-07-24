@@ -186,9 +186,7 @@ function getGearType() {
 
 function getGearLevel() {
 	
-	var select = "lv85";
-	var options = select.options;
-	var selected = options[options.selectedIndex].id;
+	var selected = "lv85";
 	
 	switch( selected ) {
 		case "lv70":
