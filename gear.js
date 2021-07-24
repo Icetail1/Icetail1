@@ -124,9 +124,7 @@ function getSubstatName( id ) {
 }
 
 function getGearEncLevel() {
-	var select = "g15";
-	var options = select.options;
-	var selected = options[options.selectedIndex].id;
+	var selected = "g15";
 	
 	if ( selected === "g0" ) {
 		return 1;
@@ -165,9 +163,7 @@ function getScoreThreshold() {
 // 1 - normal, 2 - rare, 3 - hero, 4 - legend
 function getGearType() {
 	
-	var select = "gred";
-	var options = select.options;
-	var selected = options[options.selectedIndex].id;
+	var selected = "gred";
 	
 	switch( selected ) {
 		case "gwhite":
@@ -272,7 +268,6 @@ function getSubstatMax() {
 function getSubstatMin() {
 
     var select = "85";
-	var options = select.options;
 	var selected = "lv85";
 	
 	switch( selected ) {
@@ -425,9 +420,7 @@ function getSubstatMaxCoff() {
 }
 
 function isReforged() {
-	var select_lv = document.getElementById("lv85");
-	var options_lv = select_lv.options;
-	var selected_lv = options_lv[options_lv.selectedIndex].id;
+	var selected_lv ="lv85";
 	var reforge = getReforge(5);
 	
 	// reforge gear must be +15
