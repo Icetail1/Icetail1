@@ -1,5 +1,5 @@
 // global language configuation
-var g_lang = 'en';
+var g_lang = 'cn';
 
 window.onload = function() {
 	
