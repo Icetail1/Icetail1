@@ -276,9 +276,9 @@ function getSubstatMin() {
 				3, 2, 1, 
 				28, 23, 124 ];
 		case "lv85": case "lv90r":
-			return [ 4, 4, 4, 4, 4, 
-				3, 3, 1, 
-				30, 25, 147 ];
+			return [ 8, 8, 8, 8, 8, 
+				7, 4, 4, 
+				85, 63, 359 ];
 		case "lv90":
 			return [ 5, 5, 5, 5, 5, 
 				4, 3, 2, 
