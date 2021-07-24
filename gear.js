@@ -427,7 +427,7 @@ function getSubstatMaxCoff() {
 }
 
 function isReforged() {
-	var select_lv = document.getElementById("gear-lv");
+	var select_lv = document.getElementById("lv85");
 	var options_lv = select_lv.options;
 	var selected_lv = options_lv[options_lv.selectedIndex].id;
 	var reforge = getReforge(5);
