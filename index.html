@@ -44,39 +44,6 @@
 	<option id="g15" value="gear-lv15">+15</option>
   </select>
 </div>
-<div class="col-12 col-sm-6 ">
-  <div class="row">
-  <div class="col-6 col-sm-4">
-  <div class="grid-label font-weight-bold" id="label-sub-presets">有效屬性預設值</div>
-  <select id="gear-sub-presets" class="custom-select" name="gear-sub-presets" onchange="setGearUsefulSub()" data-width="100%">
-    <option id="gus-all"   value="gus-all" >全選</option>
-    <option id="gus-dd"   value="gus-dd" selected>純輸出</option>
-    <option id="gus-tank"   value="gus-tank">坦克</option>
-    <option id="gus-debuffer"   value="gus-debuffer">debuff手</option>
-    <option id="gus-healer"   value="gus-healer">奶媽</option>
-  </select>
-   </div> 
-</div>
-
-  <div class="col-6 col-sm-8">
-  <div class="grid-label font-weight-bold" id="label-usef-sub">有效屬性</div>
-  <select id="gear-usef-sub" class="selectpicker" multiple name="gear-usef-sub" data-width="100%">
-    <option id="gus-atkper"   value="gus-atkper" selected>攻擊力%</option>
-    <option id="gus-defper"   value="gus-defper" >防禦力%</option>
-    <option id="gus-hpper"    value="gus-hpper"  >生命力%</option>
-	<option id="gus-atkflat"  value="gus-atkflat" selected>攻擊力</option>
-	<option id="gus-defflat"  value="gus-defflat" >防禦力</option>
-	<option id="gus-hpflat"   value="gus-hpflat"  >生命力</option>
-    <option id="gus-critch"   value="gus-critch"  selected>暴擊率</option>
-    <option id="gus-critdmg"  value="gus-critdmg" selected>暴擊傷害</option>
-    <option id="gus-spd"      value="gus-spd"    >速度</option>
-    <option id="gus-eff"      value="gus-eff"    >效果命中</option>
-    <option id="gus-res"      value="gus-res"    >效果抗性</option> 
-  </select>
-   </div> 
-  </div>  
-</div>  
-</div>
 <div class="grid-container">
 
   <div class="grid-label font-weight-bold" id="label-atkper">攻擊力百分比</div>
@@ -107,7 +74,7 @@
   <input type="number" class="form-control" id="critdmg" min="0" max="26" placeholder="">
   <input type="number" class="form-control" id="defflat" min="0" max="162" placeholder="">
   <div class="grid-result" id="score">0</div>
-  
+	
   <button type="button" class="btn btn-success text-center align-middle font-weight-bold" id="btn-calc" onclick="calc()">計算</button>
   <button type="button" class="btn btn-danger text-center align-middle font-weight-bold" id="btn-reset" onclick="reset()">重置</button>
   <div class="grid-result" id="score-percentage" >0%</div>
