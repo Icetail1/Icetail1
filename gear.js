@@ -32,7 +32,7 @@ window.onload = function() {
         document.getElementsByTagName('meta')["keywords"].content = "机动战姬装备评分器,机动战姬装备计算器,e7装备评分器,epic7装备评分器,epic seven装备评分器";
         document.getElementsByTagName('meta')["description"].content = "机动战姬 装备评分计算器，计算装备副属性强化的好坏程度";
         
-        document.getElementById("label-present").innerHTML = "有效副属性预设值";
+        document.getElementById("label-present").innerHTML = "作者:B站搜索Icetail_official";
         document.getElementById("label-sub-presets").innerHTML = "有效副属性预设值";
         document.getElementById("label-usef-sub").innerHTML = "有效副属性";
         
